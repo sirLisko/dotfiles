@@ -1,0 +1,25 @@
+[alias]
+	aa = add --all
+	ap = add --patch
+	br = branch
+	ci = commit
+	co = checkout
+	di = diff
+	dc = diff --cached
+  ds = diff --stat
+	hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+	pf = push --force-with-lease
+	rlc = reset --hard HEAD~1
+	st = status
+	ulc = reset --soft HEAD~1
+[color]
+  ui = auto
+[core]
+	excludesfile = ~/.gitignore
+[fetch]
+  prune = true
+[push]
+	default = simple
+[user]
+	name = Luca Lischetti
+	email = luca@sirlisko.com
