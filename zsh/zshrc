@@ -1,0 +1,24 @@
+export ZSH=/Users/luca/.oh-my-zsh
+ZSH_THEME="robbyrussell"
+
+plugins=(terminalapp npm git git-flow git-extras)
+
+source $ZSH/oh-my-zsh.sh
+
+export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+
+export N_PREFIX="$HOME/n"; [[ :$PATH: == *":$N_PREFIX/bin:"* ]] || PATH+=":$N_PREFIX/bin"  # Added by n-install (see http://git.io/n-install-repo).
+
+export EDITOR='atom'
+
+export HISTSIZE=10000
+export SAVEHIST=$HISTSIZE
+setopt hist_ignore_all_dups
+setopt hist_ignore_space
+
+eval "$(thefuck --alias)"
+
+for file in $HOME/dotfiles/zsh/{aliases,apikeys,functions}; do
+  [ -r "$file" ] && [ -f "$file" ] && source "$file";
+done;
+unset file;
