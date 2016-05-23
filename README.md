@@ -11,4 +11,4 @@ make
 ```
 ---
 
-Ispired by [https://dotfiles.github.io/](https://dotfiles.github.io/).
+Inspired by [https://dotfiles.github.io/](https://dotfiles.github.io/).
