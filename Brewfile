@@ -6,6 +6,7 @@ brew 'git'
 brew 'n'
 brew 'openssl'
 brew 'thefuck'
+brew 'trash'
 brew 'youtube-dl'
 
 brew 'caskroom/cask/brew-cask'
