@@ -29,3 +29,8 @@ cask 'sourcetree'
 cask 'the-unarchiver'
 cask 'transmission'
 cask 'vlc'
+
+cask 'qlcolorcode'
+cask 'qlstephen'
+cask 'qlmarkdown'
+cask 'quicklook-json'
