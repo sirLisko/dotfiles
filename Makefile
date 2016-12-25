@@ -9,7 +9,7 @@ symlinks:
 
 brew:
 	brew update
-	brew upgrade --all
+	brew upgrade
 	brew tap Homebrew/bundle
 	brew tap caskroom/versions
 	brew bundle
