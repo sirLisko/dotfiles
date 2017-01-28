@@ -6,6 +6,7 @@ plugins=(terminalapp npm git git-flow git-extras)
 source $ZSH/oh-my-zsh.sh
 
 export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+export PATH="$PATH:./node_modules/.bin"
 
 export N_PREFIX="$HOME/n"; [[ :$PATH: == *":$N_PREFIX/bin:"* ]] || PATH+=":$N_PREFIX/bin"  # Added by n-install (see http://git.io/n-install-repo).
 
