@@ -25,7 +25,7 @@ alias gpl="git pull"
 alias gsp="git stash pop"
 alias grc="git rebase --continue"
 alias gra="git rebase --abort"
-alias gclean="git branch --merged DEVELOPMENT | grep -Ev 'DEVELOPMENT$|master$' | xargs git branch -d"
+alias gclean="git branch --merged develop | grep -Ev 'develop$|master$' | xargs git branch -d"
 alias gpullf='git reset --hard origin/`git rev-parse --abbrev-ref HEAD`'
 
 # npm
