@@ -1,7 +1,7 @@
 export ZSH=/Users/luca/.oh-my-zsh
 ZSH_THEME="robbyrussell"
 
-plugins=(terminalapp npm git git-flow git-extras)
+plugins=(git git-extras git-flow git-prune github npm terminalapp)
 
 source $ZSH/oh-my-zsh.sh
 
