@@ -9,6 +9,9 @@ brew 'openssl'
 brew 'thefuck'
 brew 'trash'
 brew 'youtube-dl'
+brew 'zsh-syntax-highlighting'
+brew 'zsh-autosuggestions'
+
 
 tap 'caskroom/cask'
 
