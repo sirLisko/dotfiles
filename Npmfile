@@ -9,3 +9,4 @@ install live-server
 install nodemon
 install npm-check-updates
 install opn-cli
+install pure-prompt
