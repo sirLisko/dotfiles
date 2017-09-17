@@ -1,6 +1,8 @@
 DIR=~/dotfiles
 
-all: symlinks brew
+all: symlinks brew node
+
+update: brew node
 
 symlinks:
 	@ln -sf $(DIR)/git/gitconfig ~/.gitconfig
@@ -14,3 +16,8 @@ brew:
 	brew tap caskroom/versions
 	brew bundle
 	brew cleanup
+
+node: brew
+	n stable
+	npm install -g npmundler
+	npmundler install -g

@@ -1,0 +1,11 @@
+update
+
+install babel-cli
+install create-react-app
+install electron-pdf
+install fkill-cli
+install json
+install live-server
+install nodemon
+install npm-check-updates
+install opn-cli

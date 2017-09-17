@@ -4,6 +4,7 @@
 * **Brewfile**: list of applications installed via [Homebrew](http://brew.sh/) and [Homebrew Cask](https://caskroom.github.io/).
 * **Git**: global .gitconfig and .gitignore
 * **Zsh**: generic configuration and aliases (optional apikeys and functions)
+* **Node/Npm**: list of global modules and last stable `nodeJS` version
 
 ## Install
 ```
@@ -17,5 +18,11 @@ $ cd dotfiles
 $ make
 ```
 ---
+
+## Update
+Update all the apps installed via `brew` and all the global `npm` modules
+```
+$ make update
+```
 
 Inspired by [https://dotfiles.github.io/](https://dotfiles.github.io/).
