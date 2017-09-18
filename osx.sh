@@ -116,7 +116,7 @@ defaults write com.apple.Safari SendDoNotTrackHTTPHeader -bool true
 defaults write com.apple.terminal StringEncodings -array 4
 
 # Install the Solarized Dark theme for iTerm
-open "${HOME}/init/Solarized Dark.itermcolors"
+# open "${HOME}/init/Solarized Dark.itermcolors"
 # Don’t display the annoying prompt when quitting iTerm
 defaults write com.googlecode.iterm2 PromptOnQuit -bool false
 
@@ -124,12 +124,7 @@ defaults write com.googlecode.iterm2 PromptOnQuit -bool false
 # Kill affected applications                                                  #
 ###############################################################################
 
-for app in "Activity Monitor" \
-	"cfprefsd" \
-	"Dock" \
-	"Finder" \
-	"Safari" \
-	"Spectacle" \
-	"SystemUIServer" \
-	killall "${app}" &> /dev/null
+for app in "Activity Monitor" "cfprefsd" "Dock" "Finder" "Safari" "Spectacle" "SystemUIServer"
+do
+	killall "${app}"
 done

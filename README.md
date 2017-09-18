@@ -5,6 +5,7 @@
 * **Git**: global .gitconfig and .gitignore
 * **Zsh**: generic configuration and aliases (optional apikeys and functions)
 * **Node/Npm**: list of global modules and last stable `nodeJS` version
+* **OSX**: some common OSX configurations
 
 ## Install
 ```

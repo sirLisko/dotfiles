@@ -1,6 +1,6 @@
 DIR=~/dotfiles
 
-all: symlinks brew node
+all: symlinks brew node osx
 
 update: brew node
 
@@ -21,3 +21,6 @@ node: brew
 	n stable
 	npm install -g npmundler
 	npmundler install -g
+
+osx: 
+	sh osx.sh
