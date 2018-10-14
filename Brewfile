@@ -10,7 +10,6 @@ brew 'openssl'
 brew 'thefuck'
 brew 'tldr'
 brew 'trash'
-brew 'yarn'
 brew 'youtube-dl'
 brew 'zsh-syntax-highlighting'
 brew 'zsh-autosuggestions'
@@ -40,12 +39,12 @@ cask 'transmission'
 cask 'visual-studio-code'
 cask 'vlc'
 
-cask 'qlcolorcode'
-cask 'qlstephen'
-cask 'qlmarkdown'
-cask 'quicklook-json'
-
-
 # QuickLook plugins
-cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch 
-cask install quicklook-csv betterzipql webp-quicklook
+cask 'betterzipql'
+cask 'qlcolorcode'
+cask 'qlmarkdown'
+cask 'qlprettypatch'
+cask 'qlstephen'
+cask 'quicklook-csv' 
+cask 'quicklook-json'
+cask 'webp-quicklook'
