@@ -8,6 +8,7 @@ symlinks:
 	@ln -sf $(DIR)/git/gitconfig ~/.gitconfig
 	@ln -sf $(DIR)/git/gitignore ~/.gitignore
 	@ln -sf $(DIR)/zsh/zshrc ~/.zshrc
+	@ln -sf $(DIR)/npm/npmrc ~/.npmrc
 
 brew:
 	brew update
@@ -20,7 +21,7 @@ brew:
 node: brew
 	n stable
 	npm install -g npmundler
-	npmundler install -g
+	npmundler install -g $(DIR)/npm/Npmfile
 
 osx: 
 	sh osx.sh
