@@ -50,3 +50,7 @@ cask 'qlstephen'
 cask 'quicklook-csv' 
 cask 'quicklook-json'
 cask 'webp-quicklook'
+
+
+tap caskroom/fonts
+cask 'font-fira-code'
