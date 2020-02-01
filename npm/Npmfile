@@ -1,5 +1,6 @@
 update
 
+install apollo
 install babel-cli
 install create-react-app
 install electron-pdf
@@ -7,6 +8,14 @@ install fkill-cli
 install json
 install live-server
 install nodemon
+install np
 install npm-check-updates
+install npkill
 install opn-cli
+install pa11y
+install parcel-bundler
 install pure-prompt
+install serve
+install svgo
+install typescript
+install yarn
