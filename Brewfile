@@ -1,6 +1,6 @@
-cask_args appdir: '/Applications'
-
 tap 'homebrew/bundle'
+tap 'homebrew/cask'
+tap 'homebrew/cask-fonts'
 
 brew 'ack'
 brew 'git'
@@ -15,9 +15,6 @@ brew 'watchman'
 brew 'youtube-dl'
 brew 'zsh-syntax-highlighting'
 brew 'zsh-autosuggestions'
-
-
-tap 'caskroom/cask'
 
 cask 'android-file-transfer'
 cask 'atom'
@@ -51,6 +48,5 @@ cask 'quicklook-csv'
 cask 'quicklook-json'
 cask 'webp-quicklook'
 
-
-tap caskroom/fonts
+# Custome font
 cask 'font-fira-code'

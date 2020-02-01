@@ -14,7 +14,6 @@ brew:
 	brew update
 	brew upgrade
 	brew tap Homebrew/bundle
-	brew tap caskroom/versions
 	brew bundle
 	brew cleanup
 
@@ -23,5 +22,5 @@ node: brew
 	npm install -g npmundler
 	npmundler install -g $(DIR)/npm/Npmfile
 
-osx: 
+osx:
 	sh osx.sh
