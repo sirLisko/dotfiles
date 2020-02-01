@@ -39,14 +39,14 @@ cask 'visual-studio-code'
 cask 'vlc'
 
 # QuickLook plugins
-cask 'betterzipql'
+cask 'betterzip'
 cask 'qlcolorcode'
 cask 'qlmarkdown'
 cask 'qlprettypatch'
 cask 'qlstephen'
 cask 'quicklook-csv' 
 cask 'quicklook-json'
-cask 'webp-quicklook'
+cask 'webpquicklook'
 
 # Custome font
 cask 'font-fira-code'
