@@ -6,12 +6,15 @@ alias rm="trash"
 
 # git
 alias s='git status'
-alias ci='git commit -m'
+alias c='git commit -m'
+alias a="git add"
+alias ca='git add . && git commit -m'
 alias review='git difftool `git merge-base HEAD develop`'
 alias git=hub
 alias ga="git add"
 alias gaa="git aa"
 alias gap="git ap"
+alias gbn="git co -b"
 alias gci="git commit"
 alias gca="git commit --amend --no-edit "
 alias gcam="git commit --amend"
@@ -32,9 +35,11 @@ alias gr="git rebase"
 alias gri="git rebase --interactive"
 alias grc="git rebase --continue"
 alias gra="git rebase --abort"
+alias grs="git rebase --skip"
 alias gpl="git pull"
 alias gplf='git reset --hard origin/`git rev-parse --abbrev-ref HEAD`'
 alias gclean="git branch --merged | grep -Ev 'master$|^\*.*$' | xargs git branch -d"
+alias gbclean="git removed-branches --prune -f"
 
 # npm
 alias ni="npm install"
@@ -59,6 +64,9 @@ alias ios="open /Applications/Xcode.app/Contents/Developer/Applications/Simulato
 alias ip="dig +short myip.opendns.com @resolver1.opendns.com"
 alias localip="ipconfig getifaddr en0"
 alias ips="ifconfig -a | grep -o 'inet6\? \(addr:\)\?\s\?\(\(\([0-9]\+\.\)\{3\}[0-9]\+\)\|[a-fA-F0-9:]\+\)' | awk '{ sub(/inet6? (addr:)? ?/, \"\"); print }'"
+
+# command improved
+alias cat="bat"
 
 # various
 alias h="less ~/dotfiles/zsh/aliases"
