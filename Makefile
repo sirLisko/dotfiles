@@ -24,3 +24,7 @@ node: brew
 
 osx:
 	sh osx.sh
+
+server:
+	@ln -sf $(DIR)/git/gitconfig ~/.gitconfig
+	@ln -sf $(DIR)/zsh/zshrc-server ~/.zshrc

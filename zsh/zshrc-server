@@ -1,0 +1,13 @@
+export ZSH="/home/luca/.oh-my-zsh"
+ZSH_THEME="robbyrussell"
+
+plugins=(copyfile git git-extras github history)
+
+source $ZSH/oh-my-zsh.sh
+
+export PATH="$PATH:./node_modules/.bin"
+
+export HISTSIZE=10000
+export SAVEHIST=$HISTSIZE
+setopt hist_ignore_all_dups
+setopt hist_ignore_space
