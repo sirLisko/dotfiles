@@ -11,3 +11,9 @@ export HISTSIZE=10000
 export SAVEHIST=$HISTSIZE
 setopt hist_ignore_all_dups
 setopt hist_ignore_space
+
+for file in $HOME/dotfiles/zsh/{aliases-server,apikeys,functions}; do
+  [ -r "$file" ] && [ -f "$file" ] && source "$file";
+done;
+unset file;
+
