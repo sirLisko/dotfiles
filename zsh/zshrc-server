@@ -1,7 +1,7 @@
 export ZSH="/home/luca/.oh-my-zsh"
 ZSH_THEME="robbyrussell"
 
-plugins=(copyfile git git-extras github history)
+plugins=(copyfile git git-extras github history zsh-autosuggestions zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 
