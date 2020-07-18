@@ -18,7 +18,7 @@ brew:
 	brew cleanup
 
 node: brew
-	n stable
+	nvm install stable
 	npm install -g npmundler
 	npmundler install -g $(DIR)/npm/Npmfile
 
