@@ -17,3 +17,5 @@ for file in $HOME/dotfiles/zsh/{aliases-server,apikeys,functions}; do
 done;
 unset file;
 
+export NVM_DIR="$HOME/.nvm"
+source ~/.nvm/nvm.sh

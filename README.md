@@ -38,9 +38,13 @@ Inspired by [https://dotfiles.github.io/](https://dotfiles.github.io/).
 
 ## On Server
 
-```badh
+```bash
 make server
 ```
+
+### Note
+
+You need to install `nvm` [more info](https://github.com/nvm-sh/nvm#installing-and-updating)
 
 ### Manually install zsh autosuggestions and syntax highlighting
 
