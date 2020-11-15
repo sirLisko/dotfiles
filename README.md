@@ -74,3 +74,15 @@ And run this to remove the attributes:
 ```bash
 xattr -d -r com.apple.quarantine ~/Library/QuickLook
 ```
+
+### iTerm2
+
+#### Snazzy theme
+
+Link to the theme [repo](https://github.com/sindresorhus/iterm2-snazzy).
+
+#### Set Natural text editing keys in iTerm
+
+- Go to Preferences... > Profiles > Keys
+- Press Load Preset...
+- Select Natural Text Editing
