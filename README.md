@@ -58,3 +58,19 @@ then in the `~/.zshrc`
 ```bash
 plugins=([...plugins] zsh-autosuggestions zsh-syntax-highlighting)
 ```
+
+### Enable Quick Look plugins
+
+To get plugins working in Catalina, you will need to remove the quarantine attribute.
+
+Run this to see the attributes:
+
+```bash
+xattr -r ~/Library/QuickLook
+```
+
+And run this to remove the attributes:
+
+```bash
+xattr -d -r com.apple.quarantine ~/Library/QuickLook
+```
