@@ -23,3 +23,5 @@
 [user]
 	name = Luca Lischetti
 	email = luca@sirlisko.com
+[pull]
+	ff = only
