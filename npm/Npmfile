@@ -14,7 +14,6 @@ install npkill
 install opn-cli
 install pa11y
 install parcel-bundler
-install pure-prompt
 install serve
 install svgo
 install typescript

@@ -6,9 +6,7 @@ plugins=(copyfile git git-extras git-flow github history osx)
 
 source $ZSH/oh-my-zsh.sh
 
-# install pure prompt installed via npm
-autoload -U promptinit; promptinit
-prompt pure
+eval "$(starship init zsh)"
 
 # zsh-plugins installed via brew
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
