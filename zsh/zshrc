@@ -1,5 +1,6 @@
 export ZSH=/Users/luca/.oh-my-zsh
 ZSH_THEME=""
+DISABLE_MAGIC_FUNCTIONS=true
 
 plugins=(copyfile git git-extras git-flow github history osx)
 
