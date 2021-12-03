@@ -2,15 +2,11 @@ export ZSH=/Users/luca/.oh-my-zsh
 ZSH_THEME=""
 DISABLE_MAGIC_FUNCTIONS=true
 
-plugins=(copyfile git git-extras git-flow github history osx)
+plugins=(copyfile git git-extras git-flow github history macos zsh-autosuggestions zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 
 eval "$(starship init zsh)"
-
-# zsh-plugins installed via brew
-source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 export PATH="$PATH:./node_modules/.bin"
 
@@ -27,5 +23,5 @@ done;
 unset file;
 
 export NVM_DIR="$HOME/.nvm"
-[ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
-[ -s "/usr/local/opt/nvm/etc/bash_completion.d/nvm" ] && . "/usr/local/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
+  [ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && . "/opt/homebrew/opt/nvm/nvm.sh"  # This loads nvm
+  [ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && . "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
