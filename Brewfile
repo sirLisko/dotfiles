@@ -35,7 +35,6 @@ cask 'slack'
 cask 'spectacle'
 cask 'sourcetree'
 cask 'spotify'
-cask 'starship'
 cask 'the-unarchiver'
 cask 'transmission'
 cask 'visual-studio-code'
@@ -52,4 +51,4 @@ cask 'quicklook-json'
 cask 'webpquicklook'
 
 # Custome font
-cask 'font-fira-code'
+cask 'font-fira-code-nerd-font'
