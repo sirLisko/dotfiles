@@ -9,6 +9,7 @@ brew 'git' # Git CLI
 brew 'hub' # GitHub CLI
 brew 'nvm' # Node Version Manager
 brew 'openssl' # OpenSSL
+brew 'pnpm' # Alternative to npm
 brew 'starship' # CLI tool for managing your projects
 brew 'thefuck'# Correct your previous command
 brew 'tldr' # man page alternative

@@ -15,13 +15,17 @@
 [color]
 	ui = auto
 [core]
-	excludesfile = ~/.gitignore
+	excludesfile = /Users/luca/.gitignore
+	ignorecase = false
 [fetch]
 	prune = true
 [push]
 	default = simple
+	autoSetupRemote = true
 [user]
 	name = Luca Lischetti
 	email = luca@sirlisko.com
 [pull]
 	ff = only
+[init]
+	defaultBranch = main

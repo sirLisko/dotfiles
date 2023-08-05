@@ -7,6 +7,7 @@ alias rm="trash"
 # git
 alias s="git status"
 alias c="git commit -m"
+alias ci="git commit"
 alias co="git checkout"
 alias a="git add"
 alias ca="git add . && git commit -m"
@@ -54,8 +55,25 @@ alias nd="npm run dev"
 alias ns="npm start"
 alias nt="npm test"
 alias ntw="npm test -- --watch"
+alias ntc="npm test -- --coverage"
 alias nu="npm uninstall"
 alias nug="npm uninstall -g"
+
+# pnpm
+alias p="pnpm"
+alias pi="pnpm install"
+alias pis="pnpm install --save"
+alias pisd="pnpm install --save-dev"
+alias pig="pnpm install -g"
+alias pl="pnpm link"
+alias pr="pnpm run"
+alias pd="pnpm run dev"
+alias pst="pnpm start"
+alias pt="pnpm test"
+alias ptw="pnpm test -- --watch"
+alias ptc="pnpm test -- --coverage"
+alias pu="pnpm uninstall"
+alias pug="pnpm uninstall -g"
 
 # OSX
 # Show/hide hidden files in Finder
