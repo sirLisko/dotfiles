@@ -14,7 +14,6 @@ brew 'starship' # CLI tool for managing your projects
 brew 'thefuck'# Correct your previous command
 brew 'tldr' # man page alternative
 brew 'trash' # rm enancher
-brew 'watchman' # file watcher
 brew 'webp' # image optimization
 brew 'youtube-dl' # YouTube downloader
 brew 'zsh-syntax-highlighting'
@@ -29,6 +28,7 @@ cask 'brave-browser' # web browser
 cask 'discord' # chat
 cask 'dozer' # status bar manager
 cask 'dropbox' # file sharing
+cask 'fig' # cli autocomplete
 cask 'firefox' # web browser
 cask 'flux' # change screen brightness
 cask 'google-chrome' # web browser
@@ -37,6 +37,7 @@ cask 'handbrake' # video encoder
 cask 'imageoptim' # image optimization
 cask 'insomnia' # API debugger
 cask 'iterm2' # terminal
+cask 'keepingyouawake' # wake up computer
 cask 'krisp' # noise cancelling
 cask 'macdown' # markdown editor
 cask 'openvpn-connect' # vpn connection
