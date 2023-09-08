@@ -3,6 +3,7 @@ tap 'homebrew/cask'
 tap 'homebrew/cask-fonts'
 
 brew 'ack' # grep-like tool
+brew 'awscli' # AWS CLI
 brew 'bat' # cat(1) with wings
 brew 'gh' # GitHub CLI
 brew 'git' # Git CLI
