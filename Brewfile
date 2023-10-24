@@ -7,7 +7,9 @@ brew 'awscli' # AWS CLI
 brew 'bat' # cat(1) with wings
 brew 'gh' # GitHub CLI
 brew 'git' # Git CLI
+brew 'grip' # Git Readme Instant Preview
 brew 'hub' # GitHub CLI
+brew 'jq' # Command-line JSON processor
 brew 'nvm' # Node Version Manager
 brew 'openssl' # OpenSSL
 brew 'pnpm' # Alternative to npm
