@@ -1,5 +1,4 @@
 tap 'homebrew/bundle'
-tap 'homebrew/cask'
 tap 'homebrew/cask-fonts'
 
 brew 'ack' # grep-like tool
@@ -22,29 +21,26 @@ brew 'youtube-dl' # YouTube downloader
 brew 'zsh-syntax-highlighting'
 brew 'zsh-autosuggestions'
 
+cask '1password' # password manager
+cask '1password-cli'# 1password cli
 cask 'android-file-transfer' # Android File Transfer
 cask 'apparency' # inspect other Apps installed
 cask 'appcleaner' # uninstall apps
-cask 'authy' # 2FA
-cask 'bitwarden' # password manager
 cask 'brave-browser' # web browser
+cask 'bruno' # web browser
 cask 'discord' # chat
-cask 'dozer' # status bar manager
 cask 'dropbox' # file sharing
-cask 'fig' # cli autocomplete
 cask 'firefox' # web browser
 cask 'flux' # change screen brightness
 cask 'google-chrome' # web browser
 cask 'grammarly-desktop' # grammar checker
 cask 'handbrake' # video encoder
 cask 'imageoptim' # image optimization
-cask 'insomnia' # API debugger
 cask 'iterm2' # terminal
 cask 'keepingyouawake' # wake up computer
 cask 'krisp' # noise cancelling
 cask 'macdown' # markdown editor
 cask 'openvpn-connect' # vpn connection
-cask 'postman' # API debugger
 cask 'raycast' # alternative to spotlight
 cask 'raindropio' # bookmark manager
 cask 'rectangle' # window manager
