@@ -108,6 +108,10 @@ defaults write NSGlobalDomain WebKitDeveloperExtras -bool true
 # Enable “Do Not Track”
 defaults write com.apple.Safari SendDoNotTrackHTTPHeader -bool true
 
+# Inspecting web views in macOS
+defaults write NSGlobalDomain WebKitDeveloperExtras -bool true
+defaults write -g WebKitDeveloperExtras -bool YES
+
 ###############################################################################
 # Terminal & iTerm 2                                                          #
 ###############################################################################
