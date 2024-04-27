@@ -39,10 +39,11 @@ alias gri="git rebase --interactive"
 alias grc="git rebase --continue"
 alias gra="git rebase --abort"
 alias grs="git rebase --skip"
-alias gres="git restore --staged"
+alias gre="git restore --staged"
+alias gres="git restore --staged . && git clean -fd"
 alias gpl="git pull"
 alias gplf='git reset --hard origin/`git rev-parse --abbrev-ref HEAD`'
-alias gclean="git branch --merged | grep -Ev 'master$|^\*.*$' | xargs git branch -d"
+alias gclean="git branch --merged | grep -Ev 'main$|^\*.*$' | xargs git branch -d"
 alias gbclean="git removed-branches --prune -f"
 
 # npm
