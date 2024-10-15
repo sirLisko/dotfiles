@@ -4,9 +4,11 @@ tap 'homebrew/cask-fonts'
 brew 'ack' # grep-like tool
 brew 'awscli' # AWS CLI
 brew 'bat' # cat(1) with wings
+brew 'deno' # TS and JS runtime
 brew 'gh' # GitHub CLI
 brew 'git' # Git CLI
 brew 'grip' # Git Readme Instant Preview
+brew 'httpie' # HTTPie
 brew 'hub' # GitHub CLI
 brew 'jq' # Command-line JSON processor
 brew 'nvm' # Node Version Manager
@@ -26,8 +28,9 @@ cask '1password-cli'# 1password cli
 cask 'android-file-transfer' # Android File Transfer
 cask 'apparency' # inspect other Apps installed
 cask 'appcleaner' # uninstall apps
+cask 'arc' # web browser
 cask 'brave-browser' # web browser
-cask 'bruno' # web browser
+cask 'bruno' # API tester
 cask 'discord' # chat
 cask 'dropbox' # file sharing
 cask 'firefox' # web browser
@@ -36,6 +39,7 @@ cask 'google-chrome' # web browser
 cask 'grammarly-desktop' # grammar checker
 cask 'handbrake' # video encoder
 cask 'imageoptim' # image optimization
+cask 'insomnia' # API tester
 cask 'iterm2' # terminal
 cask 'keepingyouawake' # wake up computer
 cask 'krisp' # noise cancelling
