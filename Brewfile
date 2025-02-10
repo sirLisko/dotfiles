@@ -1,5 +1,4 @@
 tap 'homebrew/bundle'
-tap 'homebrew/cask-fonts'
 
 brew 'ack' # grep-like tool
 brew 'awscli' # AWS CLI
@@ -19,12 +18,12 @@ brew 'thefuck'# Correct your previous command
 brew 'tldr' # man page alternative
 brew 'trash' # rm enancher
 brew 'webp' # image optimization
-brew 'youtube-dl' # YouTube downloader
+brew 'yt-dlp' # YouTube downloader
 brew 'zsh-syntax-highlighting'
 brew 'zsh-autosuggestions'
 
-cask '1password' # password manager
-cask '1password-cli'# 1password cli
+cask '1password@beta' # password manager
+cask '1password-cli@beta'# 1password cli
 cask 'android-file-transfer' # Android File Transfer
 cask 'apparency' # inspect other Apps installed
 cask 'appcleaner' # uninstall apps
@@ -61,7 +60,6 @@ cask 'whatsapp' # chat
 # QuickLook plugins
 cask 'betterzip'
 cask 'qlcolorcode'
-cask 'qlimagesize'
 cask 'qlmarkdown'
 cask 'qlprettypatch'
 cask 'qlstephen'
