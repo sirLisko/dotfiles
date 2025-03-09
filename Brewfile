@@ -10,6 +10,7 @@ brew 'grip' # Git Readme Instant Preview
 brew 'httpie' # HTTPie
 brew 'hub' # GitHub CLI
 brew 'jq' # Command-line JSON processor
+brew 'mcfly' # An upgraded ctrl-r
 brew 'nvm' # Node Version Manager
 brew 'openssl' # OpenSSL
 brew 'pnpm' # Alternative to npm

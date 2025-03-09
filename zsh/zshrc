@@ -17,6 +17,8 @@ setopt hist_ignore_space
 
 eval "$(thefuck --alias)"
 
+eval "$(mcfly init zsh)"
+
 for file in $HOME/dotfiles/zsh/{aliases,apikeys,functions}; do
   [ -r "$file" ] && [ -f "$file" ] && source "$file";
 done;
