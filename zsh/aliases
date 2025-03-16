@@ -71,8 +71,8 @@ alias pl="pnpm link"
 alias pd="pnpm dev"
 alias pst="pnpm start"
 alias pt="pnpm test"
-alias ptw="pnpm test -- --watch"
-alias ptc="pnpm test -- --coverage"
+alias ptw="pnpm test --watch"
+alias ptc="pnpm test --coverage"
 alias pu="pnpm uninstall"
 alias pug="pnpm uninstall -g"
 
@@ -97,3 +97,6 @@ alias cat="bat"
 # various
 alias h="less ~/dotfiles/zsh/aliases"
 alias srcz="source ~/.zshrc"
+
+# SUBSTITUTE VIM
+# :6,10s/foo/bar/g
